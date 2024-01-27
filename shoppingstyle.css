@@ -111,6 +111,14 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
+.page5 button:hover
+{
+  background-color: rgb(4, 107, 159);
+}
+.page6 button:hover
+{
+  background-color: rgb(4, 107, 159);
+}
 .page6
 {
   display: grid;
@@ -124,4 +132,16 @@
   border-radius: 4px;
   border-color:rgb(244, 229, 143);
   background-color:rgb(255, 248, 209);
+}
+.page7
+{
+  display: flex;
+  justify-content: space-around;
+}
+.testimonial button
+{
+   border-radius: 4px;
+   background-color: hsl(200,100%,50%);
+   color: white;
+   border:none;
 }
